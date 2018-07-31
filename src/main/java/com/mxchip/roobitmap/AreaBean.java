@@ -14,6 +14,14 @@ public class AreaBean {
     public AreaBean(){
 
     }
+
+    /**
+     *
+     * @param id 点的唯一标识
+     * @param x 坐标点x
+     * @param y 坐标点y
+     * @param t 障碍物 0无障碍物，1有障碍物
+     */
     public AreaBean(int id, float x, float y, int t) {
         this.id = id;
         this.x = x;
