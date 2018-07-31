@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AreaRoomView">
+        <attr name="line_color" format="color" />
+        <attr name="clean_color" format="color" />
+        <attr name="bar_color" format="color" />
+        <attr name="robot_color" format="color" />
+        <attr name="max_grid" format="integer" />
+    </declare-styleable>
+</resources>
