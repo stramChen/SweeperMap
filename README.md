@@ -2,7 +2,7 @@
 # SweeperMap
 扫地机器人地图的自定义View，支持类似于百度地图的手势缩放功能。
 
-![地图](./img/pic.png)
+![地图](./img/pic.png "map")
 
 ##使用方式
 1. 引入XML布局
