@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AreaRoomView"><attr format="color" name="line_color"/><attr format="color" name="clean_color"/><attr format="color" name="bar_color"/><attr format="color" name="robot_color"/><attr format="integer" name="max_grid"/></declare-styleable>
+    <string name="app_name">RoobitMap</string>
+</resources>

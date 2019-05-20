@@ -30,3 +30,57 @@ areaRoom.setDatas(areaBeans, true);
 ```
 areaRoom.clear();
 ```
+
+备注：
+附上底部布局
+```
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical|right"
+	android:background="@color/white"
+	android:orientation="horizontal">
+	<View
+		android:layout_width="10dp"
+		android:layout_height="10dp"
+		android:background="@drawable/shape_blue_point"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="11dp"
+		android:text="机器人"/>
+	<View
+		android:layout_width="10dp"
+		android:layout_height="10dp"
+		android:background="@drawable/shape_yellow_point"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="11dp"
+		android:text="已打扫"/>
+	<View
+		android:layout_width="10dp"
+		android:layout_height="10dp"
+		android:background="@drawable/shape_empty_point"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="11dp"
+		android:text="未打扫"/>
+	<View
+		android:layout_width="10dp"
+		android:layout_height="10dp"
+		android:background="@drawable/shape_gray_point"
+		android:visibility="gone"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="10dp"
+		android:text="障碍物"
+		android:visibility="gone"/>
+</LinearLayout>
+```
